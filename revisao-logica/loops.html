@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = prompt("Digite um número")
+        let indice = 0
+
+        while(indice <= 10 ){
+
+            document.write(`${n} x ${indice} = ${(n * indice)}<br>`)
+            indice++
+
+        }
+
+        document.write("Saiu do Loop While<br>")
+
+        for(let j = 0; j <= 10; j++){
+            document.write(`${n} x ${j} = ${(n * j)}<br>`)
+
+        }
+
+        document.write("Saiu do Loop For")
+
+        
+
+    </script>
+
+</body>
+</html>
